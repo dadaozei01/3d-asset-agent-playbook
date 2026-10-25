@@ -44,7 +44,7 @@ pippit-tool-cli query-result --thread-id <id> --run-id <id>
 | 智能图片V2.5 Pro | 1K / 2K / 4K，推理强度 low–max | 官方描述“image 2.5 水准”，精准生成与编辑 |
 | 智能图片V2.5 Fast | — | 速度优先 |
 | 智能图片V2 | — | |
-| 旗舰生图模型 V2-Pro | 1K / 2K / 4K | 擅长图片编辑、还原复杂场景（可能对应 Nano Banana Pro，未确认） |
+| 旗舰生图模型 V2-Pro | 1K / 2K / 4K | 即 Nano Banana Pro（用户 2026-10-25 确认）；擅长图片编辑、还原复杂场景 |
 | 旗舰生图模型 V2-Flash | — | |
 | 美学模型 8.2 | 1K / 2K | 悠船 v8.2，适合影视、视觉概念 |
 | Anycook影视版 | — | |
@@ -54,5 +54,5 @@ pippit-tool-cli query-result --thread-id <id> --run-id <id>
 ## 选模型
 
 - 用户已授权：以效果为准，不为省积分选便宜的模型。
-- 新类型贴图第一次生成时，用同一句提示词在 Seedream 5.0 Pro、智能图片V2.5 Pro、旗舰生图模型 V2-Pro 上各出一张对比，选效果最好的，并把结论写进对应的风格档案。
+- 新类型贴图第一次生成时，用同一句提示词在 Seedream 5.0 Pro、智能图片V2.5 Pro、旗舰生图模型 V2-Pro（Nano Banana Pro）上各出一张对比，选效果最好的，并把结论写进对应的风格档案。
 - 小云雀 skill 规定没有用户授权时不能代选模型；本仓库的风格档案里写明的默认模型，视为用户已授权的选择。
