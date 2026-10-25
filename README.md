@@ -20,7 +20,7 @@ AI Agent 通过 MCP 操作 3D 软件制作模型时的通用思路。不绑定�
   6. [交付与导出](docs/workflow/06-delivery.md)
   7. [验收](docs/workflow/07-review.md)
 - 风格档案：[Supercell 风格化](styles/supercell-stylized.md) · [写实 PBR](styles/realistic-pbr.md) · [新建模板](styles/_template.md)
-- 软件与工具：[Blender](tools/blender/README.md) · [AI 生成贴图（即梦 dreamina）](tools/image-gen/dreamina.md) · [接入新软件模板](tools/_template.md)
+- 软件与工具：[Blender](tools/blender/README.md) · [AI 生成贴图：小云雀（首选，多模型）](tools/image-gen/xiaoyunque.md) · [即梦 dreamina（备用）](tools/image-gen/dreamina.md) · [接入新软件模板](tools/_template.md)
 - 交付目标：[Unreal Engine](targets/unreal.md) · [新建模板](targets/_template.md)
 - 案例：[2026-10-24 带金属边的木门](cases/2026-10-24-wooden-door.md)
 - 接入：[Claude Skill](integrations/claude-skill/SKILL.md) · [Codex / 其他 Agent 的 AGENTS.md 片段](integrations/AGENTS.snippet.md)

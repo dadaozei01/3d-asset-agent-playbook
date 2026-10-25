@@ -2,6 +2,8 @@
 
 即梦是字节的图像生成服务，`dreamina` 是它的命令行。本机已通过 Codex 的 skill 接入（`~/.codex/skills/dreamina-cli/SKILL.md`），Claude 直接调用同一个 CLI。
 
+自 2026-10-25 起首选 [小云雀](xiaoyunque.md)（一个会员可用 Seedream 5.0 Pro 和其他多个模型）；即梦作为备用。
+
 ## 用法
 
 ```bash
