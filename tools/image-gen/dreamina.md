@@ -7,11 +7,13 @@
 ```bash
 dreamina user_credit
 dreamina text2image -h
-dreamina text2image --model_version=5.0 --resolution_type=2k --ratio=1:1 --generate_num=1 --poll=90 --prompt="..."
+dreamina text2image --model_version=5.0Pro --resolution_type=2k --ratio=1:1 --generate_num=1 --poll=90 --prompt="..."
 dreamina query_result --submit_id=<id> --download_dir=<dir>
 ```
 
-- 默认：模型 5.0、2K、1:1、1 张。不用 5.0Pro，除非用户明确要求。
+- 以效果为准，不为省额度选免费模型。贴图默认用 5.0Pro、1:1、1 张（2026-10-25 用户确认）。
+- 分辨率按用途选：平铺贴图会重复铺开，2K 通常够用；需要直接贴满整个部件或近景特写的贴图用 4K。
+- 2026-10-24 的木门案例用的是 5.0（Lite），之后的贴图应以 5.0Pro 为准重新验证提示词效果。
 - 提交前告诉用户模型、分辨率、比例、数量；生成会消耗额度。
 - 以 `gen_status=success` 为准，不只看退出码。保存 `submit_id`。
 - 下载到独立的空目录，文件名带 `submit_id`，再按用途改名。
